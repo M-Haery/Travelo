@@ -1,0 +1,81 @@
+@media (max-width: 575.98px) {
+  .popular-item{
+    width: 300px;
+  }
+  .icon{
+    width: 8vw;
+    height: 8vw;
+  }
+  .video{
+    margin: 10px 0;
+    height: 60vw;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .australia h2{
+    font-size: 9vw;
+  }
+  .australia p{
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 991.98px) {
+  nav {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    justify-content: space-between;
+  }
+  .icons {
+    display: flex;
+  }
+
+  .icon-box {
+    width: 40px;
+  }
+  .logo {
+    margin-left: 70px;
+  }
+  .popular-boxes{
+    grid-template-areas: "italy" "brazil" "america" "nepal" "maldives-1" "maldives-2"!important;
+  }
+  footer{
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 40px;
+  }
+  .ul-left-1{
+    margin-right: 40px;
+}
+}
+
+@media (max-width: 1199.98px) {
+  .search-box{
+    flex-direction: column;
+  }
+  form{
+    flex-direction: column;
+  }
+  input{
+    margin: 10px 0!important;
+  }
+  .popular-boxes{
+    grid-template-areas: "italy brazil" "america nepal" "maldives-1 maldives-2"; 
+  }
+  .Subscribe{
+    flex-direction: column;
+  }
+  .Subscribe-captions{
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+}
